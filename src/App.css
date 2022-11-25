@@ -2,37 +2,59 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+  margin: 20px;
+  height: 50px;
+  border-radius: 1.25rem;
+  background-color: #d3d3d3;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.transactions {
+  margin: 20px;
+  height: 500px;
+  border-radius: 1.25rem;
+  background-color: #d3d3d3;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-elements {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.header-text {
+  font-size: 30px;
+  text-align: left;
+  margin: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-balance {
+  font-size: 30px;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 5px;  
+}
+
+.table-container {
+  background-color: #d3d3d3 !important;
+}
+
+.transactions span {
+  float: left;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.cell {
+  font-size: 30px !important;
+}
+
+.green { 
+  background-color: chartreuse;
+}
+
+.red {
+  background-color: red;
 }
