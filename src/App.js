@@ -43,7 +43,7 @@ function App() {
 
   return (
     <div className="App">
-      <Heading text="Investing Account" balance={getBalance()} />
+      <Heading text="Investing Accounts" balance={getBalance()} />
       <Transactions data={getTransactions()} />
     </div>
   );
